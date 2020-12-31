@@ -131,7 +131,7 @@ subroutine progress_bar_time(iteration, maximum)
         end do
     end if
     write(6,'(a)',advance='no') '] '
-    write(6,'(I3.1)',advance='no') x
+    write(6,'(I3.1)',advance='no') step
     write(6,'(a)',advance='no') '% (remaining '
     write(6,'(I4.1)',advance='no') hours
     write(6,'(a)',advance='no') ':'
